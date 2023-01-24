@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DZ_6_Android_3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Enter_post_number">Введите номер поста</string>
+    <string name="Enter_post_title">Введите название поста</string>
+    <string name="Write_a_post">Напишите пост</string>
+    <string name="Sent">Отправить</string>
+</resources>

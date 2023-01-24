@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.posts.PostFragment">
+
+    <EditText
+        android:id="@+id/et_post_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/et_custom"
+        android:hint="Номер"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#818181" />
+
+    <EditText
+        android:id="@+id/et_post_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/et_custom"
+        android:hint="Заголовок"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#818181" />
+
+    <EditText
+        android:id="@+id/et_post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/et_custom"
+        android:hint="Описание"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="#818181" />
+
+    <Button
+        android:id="@+id/btm_send_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="#2E97C1"
+        android:text="@string/Sent" />
+
+</LinearLayout>
