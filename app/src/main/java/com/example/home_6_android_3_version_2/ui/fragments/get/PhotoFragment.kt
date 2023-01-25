@@ -44,9 +44,4 @@ class PhotoFragment : Fragment() {
             Toast.makeText(requireContext(), it, Toast.LENGTH_SHORT).show()
         }
     }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        binding = null
-    }
 }
