@@ -1,4 +1,4 @@
-package com.example.home_6_android_3_version_2.ui.activity
+package com.example.hilt.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,6 @@ import com.example.home_6_android_3_version_2.R
 import com.example.home_6_android_3_version_2.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 
-@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private var binding: ActivityMainBinding? = null
@@ -27,10 +26,5 @@ class MainActivity : AppCompatActivity() {
         binding?.btmNavigation?.let { bottomNavigation ->
             NavigationUI.setupWithNavController(bottomNavigation, navController)
         }
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        binding = null
     }
 }
