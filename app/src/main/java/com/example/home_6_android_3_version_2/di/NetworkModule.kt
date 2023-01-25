@@ -1,4 +1,4 @@
-package com.example.home_6_android_3_version_2.di
+package com.example.hilt.di
 
 import com.example.home_6_android_3_version_2.data.remote.RetrofitClient
 import com.example.home_6_android_3_version_2.data.remote.api.PostsApiService
